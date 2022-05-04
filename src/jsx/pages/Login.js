@@ -5,7 +5,6 @@ import {
   loadingToggleAction,
   loginAction,
 } from "../../store/actions/AuthActions";
-import LoginLogo from "./LoginLogo";
 
 const Login = (props) => {
   const [email, setEmail] = useState("demo@example.com");
